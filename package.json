@@ -1,0 +1,18 @@
+{
+  "name": "express-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "form-data": "^2.3.1",
+    "multer": "^1.3.0",
+    "request": "^2.83.0"
+  }
+}
