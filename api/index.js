@@ -7,8 +7,7 @@ const upload = multer({ storage: storage })
 
 app.use(upload.any())
 
-app.post('/', (req, res) => {
-    console.log(req)
+app.post('/api-upload', (req, res) => {
     res.send('I recive the proxy\'s request')
 })
 
